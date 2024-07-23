@@ -11,8 +11,6 @@ conda activate cocog
 ## Usage
 Check the notebook files in the /experiments directory. These correspond to the five experiments described in the paper.
 
-## Citation
-To be updated…
+**[arXiv link to the paper](https://arxiv.org/pdf/2407.14949)**
 
-**Previous Project: CoCoG Code [Link text](https://github.com/ncclab-sustech/CoCoG)**
-
+**Previous Project: [CoCoG Code](https://github.com/ncclab-sustech/CoCoG)**
