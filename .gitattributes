@@ -1,0 +1,1 @@
+ckpts/uvit_vice_pred_imagenet.pt filter=lfs diff=lfs merge=lfs -text
