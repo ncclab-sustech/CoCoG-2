@@ -48,9 +48,9 @@ class Generator4Embeds:
     def __init__(self, path="stabilityai/sdxl-turbo", num_inference_steps=1, device=torch.device('cuda')):
         # path: "stabilityai/sdxl-turbo" or "stabilityai/stable-diffusion-xl-base-1.0" or your local path
 
-        import os
-        os.environ['http_proxy'] = 'http://10.16.35.10:13390' 
-        os.environ['https_proxy'] = 'http://10.16.35.10:13390' 
+        # import os
+        # os.environ['http_proxy'] = 'http://10.16.35.10:13390' 
+        # os.environ['https_proxy'] = 'http://10.16.35.10:13390' 
 
         self.num_inference_steps = num_inference_steps
         self.dtype = torch.float16
